@@ -28,6 +28,7 @@ Este é um projeto de estudo que tem como objetivo aprender e aplicar conceitos 
 | PUT    | `/tweets/{id}`    | Atualiza um tweet (somente dono ou admin)       |
 | DELETE | `/tweets/{id}`    | Deleta um tweet (somente dono ou admin)         |
 | GET    | `/feed`           | Lista os tweets com paginação (necessário token)|
+| GET    | `/users`           | Lista os usuarios (necessário token de adiministrador)|
 
 ---
 

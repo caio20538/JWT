@@ -153,3 +153,11 @@ Content-Type: application/json
 - Authorization: Bearer <accessToken>
 
 ![Feed](docs/images/feed.png)
+
+---
+### 📰 Listar usuario (apenas admin):
+
+- GET /users
+- Authorization: Bearer <accessToken>
+
+![Feed](docs/images/users.png)

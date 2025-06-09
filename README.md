@@ -61,17 +61,18 @@ openssl rsa -in private.pem -pubout -out public.pem
 O projeto já possui um docker-compose.yml pronto com o container do MySQL configurado.
 
 📦 Passo a passo para inicializar o projeto:
-cd docker
+
 ```bash
+cd docker
 docker compose up -d
 ```
 O banco estará rodando em localhost:3306 com:
 
- * usuário: root
+ * usuário: admin
 
- * senha: 123456
+ * senha: 123
 
- * database: spring_security
+ * database: mydb
 
 ---
 

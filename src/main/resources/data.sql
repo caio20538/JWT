@@ -1,0 +1,7 @@
+INSERT INTO tb_roles (name)
+SELECT 'ADMIN'
+WHERE NOT EXISTS (SELECT 1 FROM tb_roles WHERE name = 'ADMIN');
+
+INSERT INTO tb_roles (name)
+SELECT 'ADMIN'
+WHERE NOT EXISTS (SELECT 1 FROM tb_roles WHERE name = 'ADMIN');

@@ -53,8 +53,8 @@ Caso queira gerar novas chaves, utilize o site:
 Ou utilize os comandos abaixo:
 
 ```bash
-openssl genrsa -out private.pem 2048
-openssl rsa -in private.pem -pubout -out public.pem
+openssl genrsa -out app.key 2048 
+openssl rsa -in app.key -pubout -out app.pub 
 ```
 ---
 
